@@ -1,0 +1,6 @@
+{
+  "name": "VozStudio - Gerador de Voz do Google",
+  "description": "Estúdio de narração e conversão de texto em voz (TTS) ultrarrealista utilizando as vozes de IA do Google, controle de entonação, efeitos sonoros e download de áudio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

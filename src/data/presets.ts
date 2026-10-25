@@ -1,0 +1,58 @@
+import { PresetScript } from "../types";
+
+export const PRESET_SCRIPTS: PresetScript[] = [
+  {
+    id: "comercial-promo",
+    title: "Comercial de Vendas / Rádio",
+    category: "Publicidade",
+    icon: "Megaphone",
+    recommendedVoice: "Fenrir",
+    style: "Dynamic, punchy, persuasive commercial voiceover with broadcast clarity",
+    text: "Atenção! Está no ar a maior promoção do ano. Descontos imperdíveis de até 60% em toda a linha de tecnologia, com frete grátis para todo o Brasil. Não perca tempo: acesse o site agora mesmo e garanta o seu antes que o estoque acabe!",
+  },
+  {
+    id: "documentario-natureza",
+    title: "Documentário da Natureza",
+    category: "Documentário",
+    icon: "Globe",
+    recommendedVoice: "Charon",
+    style: "Deep, resonant, philosophical documentary narrator in natural Portuguese",
+    text: "Nas profundezas da floresta amazônica, o amanhecer revela um espetáculo silencioso. Cada gota de orvalho carrega a memória de milhões de anos de evolução. Aqui, a vida não apenas sobrevive; ela dita o compasso de todo o nosso planeta.",
+  },
+  {
+    id: "youtube-intro",
+    title: "Intro para Canal do YouTube",
+    category: "Criação de Conteúdo",
+    icon: "Video",
+    recommendedVoice: "Puck",
+    style: "Enthusiastic, energetic, modern creator voiceover in Portuguese with lively pacing",
+    text: "E aí, galera! Sejam muito bem-vindos a mais um vídeo do canal! Hoje eu preparei um conteúdo surreal que vai mudar completamente a forma como você trabalha com inteligência artificial. Então já esmaga o like, se inscreve no canal e vem comigo!",
+  },
+  {
+    id: "audiolivro-conto",
+    title: "Audiolivro / Conto de Ficção",
+    category: "Audiolivro",
+    icon: "BookOpen",
+    recommendedVoice: "Kore",
+    style: "Clear, warm, natural Portuguese narration with gentle and friendly cadence",
+    text: "Ela caminhava pela calçada de pedras enquanto as folhas de outono sussurravam sob seus passos. Não havia pressa. No coração da cidade antiga, cada esquina guardava uma história que o tempo parecia ter esquecido de apagar.",
+  },
+  {
+    id: "meditacao-mindfulness",
+    title: "Meditação e Respiração Guiada",
+    category: "Bem-estar",
+    icon: "Sparkles",
+    recommendedVoice: "Aoede",
+    style: "Very calm, soothing, soft-spoken narrator with gentle pauses",
+    text: "Feche os olhos suavemente. Inspire profundamente pelo nariz... sinta o ar preenchendo seus pulmões... e solte devagar, liberando qualquer tensão acumulada no seu corpo. Este é o seu momento de paz e presença.",
+  },
+  {
+    id: "reels-curiosidades",
+    title: "Reels / TikTok de Curiosidades",
+    category: "Redes Sociais",
+    icon: "Flame",
+    recommendedVoice: "Zephyr",
+    style: "Bright, friendly, trendy social media influencer voice in natural Portuguese",
+    text: "Você sabia que o mel puro nunca estraga? Arqueólogos encontraram potes de mel em tumbas egípcias com mais de 3 mil anos e ele ainda estava totalmente comestível! Comenta aqui se você já sabia dessa curiosidade!",
+  },
+];
